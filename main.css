@@ -5,3 +5,13 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.sign-up {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.description {
+    align-items: center;
+    align-content: center;
+}
