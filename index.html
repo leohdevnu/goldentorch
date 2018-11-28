@@ -13,7 +13,7 @@
         
     </head>
     <body>
-        <header>
+        <header class="header">
             <nav>
                 <div class="nav justify-content-center">
                     <a href="#">
@@ -38,12 +38,18 @@
                 </div>
             </nav>
         </header>
+        <div class="main">
+        <section class="container">
+            <div class="row back-button">
+                <button type="button" class="btn btn-outline-info">&#8701;Back</button>
+            </div>
+        </section>
         <section class="sign-up container">
             <div class="row">
                 <div class="description col-sm">
-                    <img src="placeholder-graphic-POC.jpg" alt="Step Text" width="80%">
-                    <h3>Step Text</h3>
-                    <p>Step Description</p>
+                    <img src="placeholder-graphic-POC.jpg" class="step-image" alt="Step Text" width="80%">
+                    <h3 class="step-text">Step Text</h3>
+                    <p class="step-description">Step Description</p>
                 </div>
                 <div id="#" class="col-sm">
                     <form>
@@ -60,7 +66,7 @@
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">Don't send me email.</label>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <img class="next-button" src="right-button-64.png">
                     </form>
                 </div>
             </div>
@@ -68,7 +74,7 @@
                 <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
             </div>
         </section>
-        
+        </div>
         <footer class="footer container">
             <div class="row">
                 <p>&copy; 2018 Golden Torch</p>
